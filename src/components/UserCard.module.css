@@ -1,0 +1,111 @@
+.container {
+  width: 280px;
+  height: auto;
+  margin: 40px auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  transition:
+    transform 0.4s cubic-bezier(0.25, 1, 0.5, 1),
+    box-shadow 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.container:hover {
+  transform: translateY(-12px) scale(1.03);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+.upperPortion {
+  height: 110px;
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-top: -65px;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 10px;
+  text-align: center;
+  color: #333;
+}
+
+.detail {
+  font-size: 14px;
+  color: #666; 
+  margin: 8px 0 15px;
+  text-align: center;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.logo {
+  font-size: 20px;
+  cursor: pointer;
+  color: #555; 
+  transition: 0.2s;
+}
+
+.logo:hover {
+  color: #4e54c8;
+  transform: scale(1.2);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 7px 20px;
+  border-radius: 20px;
+  border: none;
+  background: #4e54c8; 
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: #3b3f9f; 
+}
+
+.rattingContainer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  border-top: 1px solid #eee;
+  padding: 15px 0;
+}
+
+.ratting {
+  font-size: 14px;
+  font-weight: 600;
+  color: #555;
+}
+
+.icon {
+  margin-right: 4px;
+  color: #ff6b81;
+}
